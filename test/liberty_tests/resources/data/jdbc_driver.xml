@@ -1,0 +1,5 @@
+<jdbcDriver id="db2-driver" libraryRef="db2Lib">
+	<library id="db2Lib">
+		<fileset dir="lib" includes="*.jar"/>
+	</library>
+</jdbcDriver>

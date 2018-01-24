@@ -1,0 +1,8 @@
+<application id="teamserver" location="${server.config.dir}/apps/teamserver.war" name="teamserver" type="war">
+    <application-bnd>
+        <security-role name="rtsAdministrator">
+            <group name="rtsAdministrator" />
+            <group name="test_group" />
+        </security-role>
+    </application-bnd>
+</application>

@@ -1,0 +1,5 @@
+<jdbcDriver id="oracle-driver" libraryRef="oracleLib">
+    <library id="oracleLib">
+        <fileset dir="lib" includes="*.jar" />
+    </library>
+</jdbcDriver>

@@ -1,0 +1,10 @@
+<dataSource id="jdbc/ilogDataSource" isolationLevel="TRANSACTION_READ_COMMITTED" jndiName="jdbc/ilogDataSource" jdbcDriverRef="db2-driver">
+		<properties.db2.jcc 
+			databaseName="odmdb"
+			user="ilog"
+			password="passw0rd"
+			serverName="localhost" 
+    		portNumber="50000"
+    		currentSchema="odm" 
+		/>
+</dataSource>

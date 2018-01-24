@@ -1,0 +1,11 @@
+<basicRegistry id="basic" realm="customRealm">
+    <user name="tester" password="tester_pwd" />
+    <user name="admin" password="passw0rd" />
+    <group name="resAdministrators">
+        <member name="admin" />
+    </group>
+    <group name="resDeployers">
+        <member name="tester" />
+        <member name="admin" />
+    </group>
+</basicRegistry>

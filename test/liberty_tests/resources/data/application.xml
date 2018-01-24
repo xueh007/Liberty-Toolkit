@@ -1,0 +1,10 @@
+<application type="war" id="testing" name="testing" location="${server.config.dir}/apps/testing.war">
+	    <application-bnd>
+			<security-role name="resAdministrators">
+				<group name="resAdministrators" />
+			</security-role>
+			<security-role name="resDeployers">
+				<group name="resDeployers" />
+			</security-role>
+	    </application-bnd>
+</application>

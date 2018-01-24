@@ -1,0 +1,1 @@
+<managedExecutorService jndiName="concurrent/drExecutorService" />

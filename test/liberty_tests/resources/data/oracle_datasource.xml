@@ -1,0 +1,9 @@
+<dataSource id="jdbc/resdatasource" jndiName="jdbc/resdatasource" jdbcDriverRef="oracle-driver">
+		<properties.oracle
+			databaseName="odmdb"
+			user="ilog"
+			password="passw0rd"
+			serverName="localhost" 
+    		portNumber="1521"
+		/>
+</dataSource>

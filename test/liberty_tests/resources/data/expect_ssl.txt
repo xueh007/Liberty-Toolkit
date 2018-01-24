@@ -1,0 +1,1 @@
+<ssl id="test_ssl" keyStoreRef="key_store" sslProtocol="SSLv3" />

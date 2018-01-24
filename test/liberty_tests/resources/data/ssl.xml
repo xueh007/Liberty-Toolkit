@@ -1,0 +1,3 @@
+<ssl id="defaultSSLConfig"
+		keyStoreRef="defaultKeyStore"
+		sslProtocol="TLS" />

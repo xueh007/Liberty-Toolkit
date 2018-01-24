@@ -1,0 +1,4 @@
+<featureManager>
+    <feature>servlet-3.0</feature>
+    <feature>jsp-2.2</feature>
+</featureManager>
